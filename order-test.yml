@@ -18,3 +18,5 @@ feign:
     enabled: true
 env:
   test
+from:
+  aaa
