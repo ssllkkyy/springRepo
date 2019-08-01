@@ -12,10 +12,7 @@ spring:
     password: 123456
     url: jdbc:mysql://10.130.24.111:3306/wxorder?characterEncoding=utf-8&useSSL=false
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+
 feign:
   httpclient:
     enabled: true
