@@ -19,4 +19,4 @@ feign:
 env:
   local
 from:
-  aaa
+  aaaThisisTestLocalFile
