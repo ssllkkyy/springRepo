@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: orderClient
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+#    username: jhmq
+#    password: jhsjmy@QN
+#    url: jdbc:mysql://rm-2ze31k797234tcx2v.mysql.rds.aliyuncs.com:3306/wxorder?characterEncoding=utf-8&useSSL=false
+    username: user
+    password: passwd
+    url: jdbc:mysql://localhost:3306/wxorder?characterEncoding=utf-8&useSSL=false
+
+
+feign:
+  httpclient:
+    enabled: true
+env:
+  local
+from:
+  aaa
