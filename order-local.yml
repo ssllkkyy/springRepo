@@ -8,7 +8,7 @@ spring:
 #    username: jhmq
 #    password: jhsjmy@QN
 #    url: jdbc:mysql://rm-2ze31k797234tcx2v.mysql.rds.aliyuncs.com:3306/wxorder?characterEncoding=utf-8&useSSL=false
-    username: user
+    username: root
     password: passwd
     url: jdbc:mysql://localhost:3306/wxorder?characterEncoding=utf-8&useSSL=false
 
