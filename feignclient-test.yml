@@ -1,0 +1,13 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: feignclient1
+
+feign:
+  httpclient:
+    enabled: true
+env:
+  test
+from:
+  newV
