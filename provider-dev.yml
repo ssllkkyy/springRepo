@@ -7,7 +7,10 @@ spring:
     username: user
     password: 123456
     url: jdbc:mysql://10.130.24.111:3306/wxorder?characterEncoding=utf-8&useSSL=false
-    
+  redis:
+    host: localhost
+    password: passwd
+    port: 6379
     
     
     
