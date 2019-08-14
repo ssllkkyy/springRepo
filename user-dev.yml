@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: user
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: user
+    password: 123456
+    url: jdbc:mysql://10.130.24.111:3306/wxorder?characterEncoding=utf-8&useSSL=false
+  redis:
+    host: 192.168.198.200
+    password: passwd
+    port: 6379
+    
+    
+    
