@@ -11,6 +11,9 @@ spring:
     host: 192.168.198.200
     password: passwd
     port: 6379
+server:
+  port: 8020
+env:dev
     
     
     
