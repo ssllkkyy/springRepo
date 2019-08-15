@@ -153,8 +153,8 @@ INSERT INTO `seller_info` VALUES ('1533436038586344602', 'admin', 'admin', 'abc'
 SET FOREIGN_KEY_CHECKS = 1;
 
 
-DROP TABLE IF EXISTS `seller_info`;
-CREATE TABLE `seller_info`  (
+DROP TABLE IF EXISTS `user_info`;
+CREATE TABLE `user_info`  (
   `seller_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `username` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `password` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
